@@ -9,7 +9,7 @@ const Popup = () => {
   return (
     <div className='fixed inset-0 bg-black bg-opacity-30 z-20 flex items-center justify-center '>
 
-          <div className='md:w-3/4 lg:w-3/5 flex p-12 pt-16 lg:mt-10  items-center justify-center flex-col bg-[white] rounded-lg '>
+          <div className='md:w-3/4 lg:w-3/5 flex p-5 pt-16 lg:mt-10 lg:pt-10 items-center justify-center flex-col bg-[white] rounded-lg '>
             
             <div className='grid grid-cols-2 grid-auto-min text-[black] gap-3'>
                 <div className='md:col-span-1 md:row-span-1 row-span-1 col-span-1'>
