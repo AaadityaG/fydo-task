@@ -18,8 +18,8 @@ const Navbar = () => {
         <div className="flex flex-row items-center gap-3 lg:flex lg:flex-row md:flex-row-reverse ">
           <span className="invisible md:invisible lg:visible">
             Browsing events in
-          </span>{" "}
-          <FaChevronDown className="mx-1 inline text-[#FE3838]" />{" "}
+          </span>
+          <FaChevronDown className="mx-1 inline text-[#FE3838]" />
           <span className="text-[#FE3838] underline">Bhubaneshwar</span>
         </div>
         <div>Contact Us</div>
@@ -28,7 +28,7 @@ const Navbar = () => {
 
       <div
         id="login"
-        className="lg:flex gap-3 lg:visible md:invisible invisible"
+        className="lg:flex gap-3 lg:visible md:hidden hidden"
       >
         <Button text={"List Your Events"} />
         <Button text={"Login"} className="opacity-5" />
@@ -36,7 +36,7 @@ const Navbar = () => {
 
       <div
         id="hamburger"
-        className="lg:invisible lg:hidden visible flex items-center justify-center cursor-pointer"
+        className=" lg:hidden visible flex items-center justify-center cursor-pointer"
       >
         <FiMenu size={"24px"} />
       </div>
